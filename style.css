@@ -1,0 +1,65 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.square {
+    width: 400px;
+    height: 400px;
+    stroke: black;
+    stroke-width: 5px;
+    fill: blue;
+    transition: 0.5s;
+}
+
+.square:hover {
+    fill: green;
+    transition: 0.5s;
+    transform: rotate(90deg);
+}
+
+.rectangle {
+    width: 400px;
+    height: 200px;
+    stroke: yellow;
+    stroke-width: 5px;
+    fill: red;
+    transition: 0.5s;
+}
+
+.rectangle:hover {
+    fill: aqua;
+    transition: 0.5s;
+    transform: rotate(-90deg);
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    stroke: blueviolet;
+    stroke-width: 5px;
+    fill: orange;
+    transition: 0.5s;
+}
+
+.circle:hover {
+    fill: saddlebrown;
+    transition: 0.5s;
+}
+
+.ellipse {
+    width: 300px;
+    height: 150px;
+    stroke: orange;
+    stroke-width: 5px;
+    fill: blueviolet;
+    transition: 0.5s;
+}
+
+.ellipse:hover {
+    fill: cornflowerblue;
+    transition: 0.5s;
+}
